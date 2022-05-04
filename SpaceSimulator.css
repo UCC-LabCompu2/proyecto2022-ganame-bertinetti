@@ -1,0 +1,32 @@
+
+.header{
+  color: white;
+  margin-left: 20px;
+}
+#menu{
+  color: white;
+  margin-right: 20px ;
+}
+.sub1{
+  color: white;
+  text-align:right;
+  margin-top: 50px;
+  margin-right:600px;
+}
+.parrafo1{
+  color: white;
+  text-align: -moz-right;
+  margin-right: 20px;
+  margin-left: 950px;
+}
+
+.sub2{
+  color: white;
+  margin-left: 20px;
+}
+
+.parrafo2{
+  color:white;
+  margin-left: 20px;
+  margin-right: 1400px;
+}
