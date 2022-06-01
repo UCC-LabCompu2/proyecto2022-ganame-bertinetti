@@ -3,15 +3,19 @@
   background-color: #000000;
 }
 .background-index{
-  height:400px;
+
   background-image: url("imagenes/ss1.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
+  background-color: black;
 }
+
 .background-simulator{
-  height: 400px;
   background-image: url("imagenes/sistema_solar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: black;
   background-attachment: scroll;
 }
 
@@ -20,6 +24,12 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
+#contenedor{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+}
 
 .header{
   float: left;
