@@ -24,13 +24,6 @@ body{
   font-family: 'Rubik', sans-serif;
 }
 
-#contenedor{
-  width: 100%;
-  margin: 0 auto;
-  overflow: hidden;
-
-}
-
 .header{
   float: left;
   color: white;
