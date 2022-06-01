@@ -2,11 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Title</title>
+  <title>Space Simulator: simulator</title>
   <link href="SpaceSimulator.css" type="text/css" rel="stylesheet">
+  <link rel="shortcut icon" href="imagenes/rocket.png">
+  <link href="SpaceSimulator.css" type="text/css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Rubik:ital@1&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="imagenes/rocket.png">
 </head>
 
-<body class="background-index">
+<body class="background-simulator">
   <header>
     <h1 class="header">SPACE SIMULATOR</h1>
   </header>
@@ -18,8 +24,76 @@
       <a href="simulator.html" id="menu">SIMULATOR</a>
       <a href="about_us.html" id="menu">ABOUT US</a>
     </h3>
-  </nav>
-
+  </div>
+  <article class="columna2_simulator">
+    <h2 class="sub_simulator">
+      AERONAVES:
+    </h2>
+    <div class="checkboxes">
+      <h3>
+        Columbia<input type="radio" name="aeronaves" value="columbia" id="columbia">
+      </h3>
+    </div>
+    <div class="checkboxes">
+      <h3>
+        Dragon V2 <input type="radio" name="aeronaves" value="dragon_v" id="dragon_v">
+      </h3>
+    </div>
+    <div class="checkboxes">
+      <h3>
+        Apolo 11 <input type="radio" name="aeronave" value="apolo_11" id="apolo_11">
+      </h3>
+    </div>
+    <div class="checkboxes">
+      <h3>
+        Atlas V <input type="radio" name="aeronave" value="atlas_v" id="atlas_v">
+      </h3>
+    </div>
+    <div>
+      <button type="button"  class="boton">CALCULAR</button>
+    </div>
+  </article>
+  <article class="columna1_simulator">
+    <h2 class="sub_simulator">
+      AERONAVES:
+    </h2>
+    <div class="checkboxes_right">
+      <h3>
+        Mercurio<input type="radio" name="planeta" value="mercurio" id="mercurio">
+      </h3>
+    </div>
+    <div class="checkboxes_right">
+      <h3>
+        Venus<input type="radio" name="planeta" value="venus" id="venus">
+      </h3>
+    </div>
+    <div class="checkboxes_right">
+      <h3>
+        marte<input type="radio" name="planeta" value="marte" id="marte">
+      </h3>
+    </div>
+    <div class="checkboxes_right">
+      <h3>
+        Urano<input type="radio" name="planeta" value="urano" id="urano">
+      </h3>
+    </div>
+    <div class="checkboxes_right">
+      <h3>
+        Jupiter<input type="radio" name="planeta" value="jupiter" id="jupiter">
+      </h3>
+    </div>
+    <div class="checkboxes_right">
+      <h3>
+        Saturno<input type="radio" name="planeta" value="saturno" id="saturno">
+      </h3>
+    </div>
+    <div class="checkboxes_right">
+      <h3>
+        Neptuno<input type="radio" name="planeta" value="neptuno" id="neptuno">
+      </h3>
+    </div>
+    </div>
+  </article>
 
 </body>
 </html>

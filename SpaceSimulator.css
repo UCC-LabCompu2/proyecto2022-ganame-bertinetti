@@ -7,7 +7,11 @@
   background-image: url("imagenes/ss1.jpg");
   background-size: cover;
 }
-
+.background-simulator{
+  height: 400px;
+  background-image: url("imagenes/sistema_solar.jpg");
+  background-size: cover;
+}
 
 body{
   font-family: 'MuseoModerno', cursive;
@@ -80,7 +84,50 @@ body{
   font-style: oblique;
 }
 .debugger{
-  color: #f5ca9a;
+  color: #black;
   padding-top: 30px;
 }
 
+.columna1_simulator{
+  padding-top: 65px;
+  width: 25%;
+}
+.columna2_simulator{
+  float: right;
+  padding-top: 65px;
+  width: 25%;
+}
+.checkboxes{
+  background-color: grey;
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  margin-right: 150px;
+  text-align: center;
+}
+.checkboxes_right{
+  background-color: grey;
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  margin-right: 150px;
+  text-align: center;
+}
+.sub_simulator{
+  color: white;
+  font-size: 35px;
+  font-style: inherit;
+  text-align: center;
+  margin-right: 150px;
+}
+.boton{
+  border-bottom-color: #ff8b00;
+  color: #3d3737;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Times New Roman";
+;
+}
+.margen_aboutus{
+  padding-left: 50px;
+}
