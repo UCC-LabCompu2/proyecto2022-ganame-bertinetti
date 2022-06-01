@@ -10,7 +10,9 @@
 .background-simulator{
   height: 400px;
   background-image: url("imagenes/sistema_solar.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: scroll;
 }
 
 body{
