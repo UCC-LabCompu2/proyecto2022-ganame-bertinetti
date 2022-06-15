@@ -8,9 +8,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&family=Rubik:ital@1&display=swap" rel="stylesheet">
+  <script  type="text/javascript" src="funciones_simulator.js"></script>
 </head>
 
-<body class="background-simulator">
+<body class="background-simulator" onchange="CalcularDiv">
   <header>
     <h1 class="header">SPACE SIMULATOR</h1>
   </header>
@@ -48,7 +49,7 @@
       </h3>
     </div>
     <div>
-      <button type="button" onclick="CalcularDiv" class="boton">CALCULAR</button>
+      <button type="button" class="boton" name="resultado" onclick="alert(CalcularDiv())">CALCULAR</button>
     </div>
   </article>
   <article class="columna1_simulator">

@@ -11,35 +11,37 @@ function CalcularDiv() {
     var planeta;
     var rta;
 
-    if (document.getElementsByName("aeronaves") === "columbia") {
+    if (document.getElementById("columbia")) {
         aeronaves = 28000;
-    } else if (document.getElementsByName("aeronaves") === "dragon_v2") {
+    } else if (document.getElementById("dragon_v2")) {
         aeronaves = 80000;
-    } else if (document.getElementsByName("aeronaves") === "apolo_11") {
+    } else if (document.getElementById("apolo_11")) {
         aeronaves = 45000;
-    } else if (document.getElementsByName("aeronaves") === "atlas_v") {
+    } else if (document.getElementById("atlas_v")) {
         aeronaves = 58000;
     }
 
-    if (document.getElementsByName("planeta") == "mercurio") {
+    if (document.getElementsByName("mercurio")) {
         planeta = 222000000;
-    } else if (document.getElementsByName("planeta") == "venus") {
+    } else if (document.getElementById("venus")) {
         planeta = 40000000;
-    } else if (document.getElementsByName("planeta") == "marte") {
+    } else if (document.getElementById("marte")) {
         planeta = 102000000;
-    } else if (document.getElementsByName("planeta") == "urano") {
+    } else if (document.getElementById("urano")) {
         planeta = 4300000000;
-    } else if (document.getElementsByName("planeta") == "jupiter") {
+    } else if (document.getElementById("jupiter")) {
         planeta = 660000000;
-    } else if (document.getElementsByName("planeta") == "saturno") {
+    } else if (document.getElementsByName("saturno")) {
         planeta = 1200000000;
-    } else if (document.getElementsByName("planeta") == "neptuno") {
+    } else if (document.getElementsByName("neptuno")) {
         planeta = 4500000000;
     }
 
     rta = planeta / aeronaves;
 
-    return (alert('El teimpo estimado en el que la aeronave llegaria a su destino es: ', rta));
+    rta = (rta*100)/100
+
+    return rta;
 
 }
 
